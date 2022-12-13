@@ -1,0 +1,913 @@
+31.0 APEX_CODE,FINER;APEX_PROFILING,INFO;CALLOUT,INFO;DB,FINEST;NBA,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+10:29:28.0 (158775)|USER_INFO|[EXTERNAL]|0052p000008i9TA|n.gonzalez@blackbirdcrew.com.pre|hora estándar de Europa central|GMT+02:00
+10:29:28.0 (214584)|EXECUTION_STARTED
+10:29:28.0 (220545)|CODE_UNIT_STARTED|[EXTERNAL]|TRIGGERS
+10:29:28.0 (261946)|CODE_UNIT_STARTED|[EXTERNAL]|01q57000000g1Lq|ContractTrigger on Contract trigger event BeforeUpdate|__sfdc_trigger/ContractTrigger
+10:29:28.0 (329025)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+10:29:28.0 (462141)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+10:29:28.0 (1066787)|HEAP_ALLOCATE|[79]|Bytes:3
+10:29:28.0 (1122375)|HEAP_ALLOCATE|[84]|Bytes:152
+10:29:28.0 (1141519)|HEAP_ALLOCATE|[399]|Bytes:408
+10:29:28.0 (1158068)|HEAP_ALLOCATE|[412]|Bytes:408
+10:29:28.0 (1171963)|HEAP_ALLOCATE|[520]|Bytes:48
+10:29:28.0 (1199861)|HEAP_ALLOCATE|[139]|Bytes:6
+10:29:28.0 (1224650)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:1
+10:29:28.0 (1234174)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+10:29:28.0 (1275525)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+10:29:28.0 (1286208)|STATEMENT_EXECUTE|[1]
+10:29:28.0 (1289112)|STATEMENT_EXECUTE|[3]
+10:29:28.0 (1296182)|HEAP_ALLOCATE|[3]|Bytes:26
+10:29:28.0 (1337588)|HEAP_ALLOCATE|[52]|Bytes:5
+10:29:28.0 (1365016)|HEAP_ALLOCATE|[58]|Bytes:5
+10:29:28.0 (1374964)|HEAP_ALLOCATE|[66]|Bytes:7
+10:29:28.0 (1444378)|USER_DEBUG|[3]|DEBUG|**** Contract Trigger ****
+10:29:28.0 (1458140)|STATEMENT_EXECUTE|[4]
+10:29:28.0 (1461362)|HEAP_ALLOCATE|[4]|Bytes:8
+10:29:28.0 (2492026)|HEAP_ALLOCATE|[4]|Bytes:23
+10:29:28.0 (2509072)|HEAP_ALLOCATE|[4]|Bytes:9
+10:29:28.0 (2525211)|METHOD_ENTRY|[6]|01p57000001HcLT|TriggerFactory.TriggerFactory()
+10:29:28.0 (2532663)|STATEMENT_EXECUTE|[6]
+10:29:28.0 (2537182)|STATEMENT_EXECUTE|[6]
+10:29:28.0 (2539190)|STATEMENT_EXECUTE|[8]
+10:29:28.0 (2545692)|METHOD_EXIT|[6]|TriggerFactory
+10:29:28.0 (2562482)|METHOD_ENTRY|[4]|01p57000001HcLT|TriggerFactory.createHandler(Schema.SObjectType)
+10:29:28.0 (2586763)|STATEMENT_EXECUTE|[19]
+10:29:28.0 (2589066)|STATEMENT_EXECUTE|[20]
+10:29:28.0 (6276735)|HEAP_ALLOCATE|[20]|Bytes:15
+10:29:28.0 (6294516)|HEAP_ALLOCATE|[20]|Bytes:436
+10:29:28.0 (6299886)|HEAP_ALLOCATE|[20]|Bytes:93
+10:29:28.0 (6304579)|HEAP_ALLOCATE|[20]|Bytes:7
+10:29:28.0 (6590515)|METHOD_ENTRY|[1]|01p57000001lFxx|Util.Util()
+10:29:28.0 (6599690)|STATEMENT_EXECUTE|[1]
+10:29:28.0 (6605571)|STATEMENT_EXECUTE|[1]
+10:29:28.0 (7373026)|SYSTEM_MODE_ENTER|false
+10:29:28.0 (7398792)|HEAP_ALLOCATE|[20]|Bytes:5
+10:29:28.0 (7408414)|STATEMENT_EXECUTE|[3]
+10:29:28.0 (7414855)|SYSTEM_MODE_EXIT|false
+10:29:28.0 (7431685)|METHOD_EXIT|[1]|Util
+10:29:28.0 (7495763)|SYSTEM_MODE_ENTER|false
+10:29:28.0 (7503166)|HEAP_ALLOCATE|[83]|Bytes:5
+10:29:28.0 (7508903)|STATEMENT_EXECUTE|[81]
+10:29:28.0 (7516295)|STATEMENT_EXECUTE|[84]
+10:29:28.0 (7518603)|STATEMENT_EXECUTE|[85]
+10:29:28.0 (7536684)|HEAP_ALLOCATE|[85]|Bytes:4
+10:29:28.0 (7575442)|STATEMENT_EXECUTE|[88]
+10:29:28.0 (7579969)|HEAP_ALLOCATE|[88]|Bytes:71
+10:29:28.0 (7593943)|HEAP_ALLOCATE|[88]|Bytes:4
+10:29:28.0 (8635726)|SOQL_EXECUTE_BEGIN|[88]|Aggregations:0|SELECT DeveloperName, Name__c, Activo__c FROM Configuration_Switch__mdt
+10:29:28.0 (14957251)|SOQL_EXECUTE_EXPLAIN|[88]|No explain plan is available
+10:29:28.0 (14979790)|SOQL_EXECUTE_END|[88]|Rows:10
+10:29:28.0 (15027807)|HEAP_ALLOCATE|[88]|Bytes:44
+10:29:28.0 (15101192)|HEAP_ALLOCATE|[88]|Bytes:1004
+10:29:28.0 (15240617)|HEAP_ALLOCATE|[88]|Bytes:44
+10:29:28.0 (15547952)|HEAP_ALLOCATE|[91]|Bytes:5
+10:29:28.0 (15613323)|HEAP_ALLOCATE|[91]|Bytes:20
+10:29:28.0 (15683703)|STATEMENT_EXECUTE|[92]
+10:29:28.0 (15687509)|STATEMENT_EXECUTE|[93]
+10:29:28.0 (15934280)|HEAP_ALLOCATE|[91]|Bytes:5
+10:29:28.0 (15960136)|HEAP_ALLOCATE|[91]|Bytes:20
+10:29:28.0 (15969966)|STATEMENT_EXECUTE|[92]
+10:29:28.0 (15972803)|STATEMENT_EXECUTE|[93]
+10:29:28.0 (16001177)|HEAP_ALLOCATE|[91]|Bytes:5
+10:29:28.0 (16014771)|HEAP_ALLOCATE|[91]|Bytes:20
+10:29:28.0 (16021412)|STATEMENT_EXECUTE|[92]
+10:29:28.0 (16023992)|STATEMENT_EXECUTE|[93]
+10:29:28.0 (16044101)|HEAP_ALLOCATE|[91]|Bytes:5
+10:29:28.0 (16056012)|HEAP_ALLOCATE|[91]|Bytes:20
+10:29:28.0 (16062091)|STATEMENT_EXECUTE|[92]
+10:29:28.0 (16065132)|STATEMENT_EXECUTE|[93]
+10:29:28.0 (16090566)|HEAP_ALLOCATE|[91]|Bytes:5
+10:29:28.0 (16110699)|HEAP_ALLOCATE|[91]|Bytes:20
+10:29:28.0 (16119003)|STATEMENT_EXECUTE|[92]
+10:29:28.0 (16121615)|STATEMENT_EXECUTE|[93]
+10:29:28.0 (16146436)|HEAP_ALLOCATE|[91]|Bytes:5
+10:29:28.0 (16159139)|HEAP_ALLOCATE|[91]|Bytes:20
+10:29:28.0 (16165956)|STATEMENT_EXECUTE|[92]
+10:29:28.0 (16168321)|STATEMENT_EXECUTE|[93]
+10:29:28.0 (16190594)|HEAP_ALLOCATE|[91]|Bytes:5
+10:29:28.0 (16203598)|HEAP_ALLOCATE|[91]|Bytes:20
+10:29:28.0 (16209776)|STATEMENT_EXECUTE|[92]
+10:29:28.0 (16212117)|STATEMENT_EXECUTE|[93]
+10:29:28.0 (16232900)|HEAP_ALLOCATE|[91]|Bytes:5
+10:29:28.0 (16245872)|HEAP_ALLOCATE|[91]|Bytes:20
+10:29:28.0 (16252208)|STATEMENT_EXECUTE|[92]
+10:29:28.0 (16254498)|STATEMENT_EXECUTE|[93]
+10:29:28.0 (16275097)|HEAP_ALLOCATE|[91]|Bytes:5
+10:29:28.0 (16287250)|HEAP_ALLOCATE|[91]|Bytes:20
+10:29:28.0 (16293267)|STATEMENT_EXECUTE|[92]
+10:29:28.0 (16295720)|STATEMENT_EXECUTE|[93]
+10:29:28.0 (16314991)|HEAP_ALLOCATE|[91]|Bytes:5
+10:29:28.0 (16327099)|HEAP_ALLOCATE|[91]|Bytes:20
+10:29:28.0 (16334011)|STATEMENT_EXECUTE|[92]
+10:29:28.0 (16336266)|STATEMENT_EXECUTE|[93]
+10:29:28.0 (16355650)|HEAP_ALLOCATE|[91]|Bytes:5
+10:29:28.0 (16368324)|STATEMENT_EXECUTE|[97]
+10:29:28.0 (16378952)|SYSTEM_MODE_EXIT|false
+10:29:28.0 (16398483)|STATEMENT_EXECUTE|[21]
+10:29:28.0 (16466160)|HEAP_ALLOCATE|[21]|Bytes:8
+10:29:28.0 (16482109)|STATEMENT_EXECUTE|[24]
+10:29:28.0 (16515233)|STATEMENT_EXECUTE|[27]
+10:29:28.0 (16539184)|METHOD_ENTRY|[27]|01p57000001HcLT|TriggerFactory.getHandler(Configuration_Switch__mdt, String)
+10:29:28.0 (16562030)|STATEMENT_EXECUTE|[104]
+10:29:28.0 (16565483)|STATEMENT_EXECUTE|[106]
+10:29:28.0 (16567926)|STATEMENT_EXECUTE|[107]
+10:29:28.0 (16571195)|STATEMENT_EXECUTE|[108]
+10:29:28.0 (16615679)|STATEMENT_EXECUTE|[111]
+10:29:28.0 (16618668)|STATEMENT_EXECUTE|[112]
+10:29:28.0 (16686166)|HEAP_ALLOCATE|[112]|Bytes:30
+10:29:28.0 (16704475)|SYSTEM_METHOD_ENTRY|[1]|Type.Type()
+10:29:28.0 (16709855)|STATEMENT_EXECUTE|[1]
+10:29:28.0 (16723619)|SYSTEM_METHOD_EXIT|[1]|Type
+10:29:28.0 (16741768)|METHOD_ENTRY|[112]||System.Type.forName(String)
+10:29:28.0 (20587640)|METHOD_EXIT|[112]||System.Type.forName(String)
+10:29:28.0 (20601738)|STATEMENT_EXECUTE|[114]
+10:29:28.0 (20604963)|STATEMENT_EXECUTE|[119]
+10:29:28.0 (20620462)|METHOD_ENTRY|[119]||System.Type.newInstance()
+10:29:28.0 (21253760)|METHOD_ENTRY|[5]|01p57000001HcKv|ContractHandler.ContractHandler()
+10:29:28.0 (21265937)|STATEMENT_EXECUTE|[5]
+10:29:28.0 (21270481)|STATEMENT_EXECUTE|[5]
+10:29:28.0 (21276256)|METHOD_EXIT|[5]|ContractHandler
+10:29:28.0 (21287729)|HEAP_ALLOCATE|[42]|Bytes:12
+10:29:28.0 (21296765)|STATEMENT_EXECUTE|[5]
+10:29:28.0 (21299188)|STATEMENT_EXECUTE|[8]
+10:29:28.0 (21405117)|HEAP_ALLOCATE|[8]|Bytes:4
+10:29:28.0 (21453605)|STATEMENT_EXECUTE|[10]
+10:29:28.0 (21503628)|HEAP_ALLOCATE|[10]|Bytes:4
+10:29:28.0 (21532535)|STATEMENT_EXECUTE|[13]
+10:29:28.0 (21559526)|METHOD_EXIT|[119]||System.Type.newInstance()
+10:29:28.0 (21569975)|HEAP_ALLOCATE|[121]|Bytes:8
+10:29:28.0 (22602408)|STATEMENT_EXECUTE|[122]
+10:29:28.0 (22606945)|STATEMENT_EXECUTE|[123]
+10:29:28.0 (22623916)|METHOD_EXIT|[27]|01p57000001HcLT|TriggerFactory.getHandler(Configuration_Switch__mdt, String)
+10:29:28.0 (22637234)|STATEMENT_EXECUTE|[31]
+10:29:28.0 (22639356)|STATEMENT_EXECUTE|[33]
+10:29:28.0 (22653884)|METHOD_ENTRY|[33]|01p57000001HcLT|TriggerFactory.execute(ITrigger)
+10:29:28.0 (22673415)|STATEMENT_EXECUTE|[46]
+10:29:28.0 (22693797)|STATEMENT_EXECUTE|[49]
+10:29:28.0 (22695967)|STATEMENT_EXECUTE|[51]
+10:29:28.0 (22830529)|METHOD_ENTRY|[51]|01p57000001HcKv|ContractHandler.bulkBefore(List<SObject>, Map<Id,SObject>)
+10:29:28.0 (22861750)|STATEMENT_EXECUTE|[22]
+10:29:28.0 (22865524)|STATEMENT_EXECUTE|[23]
+10:29:28.0 (23437030)|HEAP_ALLOCATE|[23]|Bytes:112
+10:29:28.0 (23450047)|HEAP_ALLOCATE|[23]|Bytes:51
+10:29:28.0 (23454383)|HEAP_ALLOCATE|[23]|Bytes:122
+10:29:28.0 (23545594)|METHOD_ENTRY|[1]|01p57000001HcKw|ContractUtil.ContractUtil()
+10:29:28.0 (23552068)|STATEMENT_EXECUTE|[1]
+10:29:28.0 (23556272)|STATEMENT_EXECUTE|[1]
+10:29:28.0 (24312660)|SYSTEM_MODE_ENTER|false
+10:29:28.0 (24328362)|HEAP_ALLOCATE|[4]|Bytes:5
+10:29:28.0 (24336071)|STATEMENT_EXECUTE|[4]
+10:29:28.0 (24347333)|HEAP_ALLOCATE|[4]|Bytes:5
+10:29:28.0 (24352056)|STATEMENT_EXECUTE|[8]
+10:29:28.0 (24367729)|HEAP_ALLOCATE|[8]|Bytes:4
+10:29:28.0 (24418528)|HEAP_ALLOCATE|[8]|Bytes:8
+10:29:28.0 (24446018)|HEAP_ALLOCATE|[8]|Bytes:7
+10:29:28.0 (24462554)|SYSTEM_MODE_EXIT|false
+10:29:28.0 (24474487)|METHOD_EXIT|[1]|ContractUtil
+10:29:28.0 (24493517)|METHOD_ENTRY|[23]|01p57000001HcKw|ContractUtil.loadData(List<Contract>, Map<String,Contract>)
+10:29:28.0 (24513418)|SYSTEM_MODE_ENTER|false
+10:29:28.0 (24518419)|HEAP_ALLOCATE|[51]|Bytes:5
+10:29:28.0 (24523527)|STATEMENT_EXECUTE|[50]
+10:29:28.0 (24525827)|STATEMENT_EXECUTE|[51]
+10:29:28.0 (24530356)|HEAP_ALLOCATE|[51]|Bytes:35
+10:29:28.0 (143845944)|HEAP_ALLOCATE|[51]|Bytes:6747
+10:29:28.0 (143944785)|HEAP_ALLOCATE|[51]|Bytes:6782
+10:29:28.0 (143974735)|USER_DEBUG|[51]|DEBUG|## before loadData BEFORE newList: (Contract:{Id=8003L0000003ksrQAA, AccountId=0013L00000LfR0wQAF, OwnerExpirationNotice=null, StartDate=2022-06-06 00:00:00, EndDate=null, BillingStreet=null, BillingCity=null, BillingState=null, BillingPostalCode=null, BillingCountry=null, BillingLatitude=null, BillingLongitude=null, BillingGeocodeAccuracy=null, ShippingStreet=null, ShippingCity=null, ShippingState=null, ShippingPostalCode=null, ShippingCountry=null, ShippingLatitude=null, ShippingLongitude=null, ShippingGeocodeAccuracy=null, ContractTerm=null, OwnerId=0052p000008i9TAAAY, Status=Borrador, CompanySignedId=null, CompanySignedDate=null, CustomerSignedId=null, CustomerSignedTitle=null, CustomerSignedDate=2022-06-06 00:00:00, SpecialTerms=null, ActivatedById=null, ActivatedDate=null, StatusCode=Draft, Description=null, RecordTypeId=012D00000003GZSIA2, Name=null, IsDeleted=false, ContractNumber=00046255, LastApprovedDate=null, CreatedDate=2022-07-21 10:51:22, CreatedById=0052p000008i9TAAAY, LastModifiedDate=2022-07-21 10:51:22, LastModifiedById=0052p000008i9TAAAY, SystemModstamp=2022-07-21 10:51:22, LastActivityDate=null, LastViewedDate=null, LastReferencedDate=null, Comarca__c=null, Territorio__c=null, N_cliente_existente__c=null, N_telefono__c=null, N_telefono_movil__c=612496984, N_fax__c=null, Cod_tarifa__c=null, Cod_forma_de_pago__c=null, Cod_terminos_de_pago__c=null, Cod_dia_de_pago__c=null, Duracion_contrato_en_toneladas__c=null, Consumo_previsto_Kgs__c=null, Coste_resolucion_anticipada__c=null, Producto_contratado__c=null, Prescriptor__c=null, Segmento__c=null, Importe_prima__c=null, Importe_prima_por_tonelada__c=null, Numero_de_contrato_app__c=null, Rentabilidad_prevista__c=null, dp_cad_min1__c=null, dp_cad_min2__c=null, dp_cad_min3__c=null, SWI__c=null, IBAN__c=null, CIF__c=888888, Nombre_cliente__c=null, e_mail__c=null, Cod_CNAE__c=null, Entrega_de_producto__c=Automática, Origen__c=null, Origen_tipo_de_cliente__c=null, Perfil_de_consumo__c=null, Cod_forma_pago_servicios__c=null, Cod_terminos_pago_servicios__c=null, dp_cad_min4__c=null, dp_cad_min5__c=null, dp_cad_min6__c=null, dto_Kg_1__c=null, dto_Kg_2__c=null, dto_Kg_3__c=null, dto_Kg_4__c=null, dto_Kg_5__c=null, dto_Kg_6__c=null, dcm_propano1__c=null, dcm_propano2__c=null, dcm_propano3__c=null, dcm_propano4__c=null, dto_a_o_1__c=null, dto_a_o_2__c=null, dto_a_o_3__c=null, dto_a_o_4__c=null, Cobertura_movil__c=false, Tipo_de_tanque__c=null, Capacidad_tanque__c=null, Tipo__c=null, Tipo_camion__c=null, Perfil_base__c=null, Fecha_prevista_1er_llenado__c=null, Fecha_prevista_obra_civil__c=null, TP_tipo_instalacion__c=null, Importe_modalidad_instalacion__c=null, Altitud__c=null, Proyecto_exterior_importe__c=null, Aportaci_n_al_cliente__c=null, Obra_civil_deposito_importe__c=null, Canalizado_promotor__c=null, Obra_civil_zanjas_importe__c=null, Carburante__c=false, Obra_civil_vallado_importe__c=null, Consumo_previsto_GWh__c=null, ECD_grua_importe__c=null, Consumo_previsto_tons__c=1000, Gestion_instalacion_importe__c=null, Contrato_anterior__c=null, Conexion_gas_red_ext_importe__c=null, Coste_resolucion_anticipada_MWh__c=null, Prueba_instalacion_importe__c=null, Coste_resolucion_anticipada_toneladas__c=null, LI_legaliz_inst_ext_importe__c=null, LI_extintores_importe__c=null, Direccion_de_entrega__c=a003L000003TKLpQAO, Duraci_n_contrato_GWh__c=null, Proyecto_interior_importe__c=null, Duraci_n_del_contrato_a_os__c=2, Conexion_certificado_interior_importe__c=null, Error_Sync__c=false, Contadores_importe__c=null, Estado_2__c=Nuevo, Otros_exterior__c=null, Aportacion_maxima_interior__c=null, Caldera__c=null, Inertizado_Dep_Cliente__c=null, Inversion_recuperable__c=null, Inversion_no_recuperable__c=null, Oportunidad__c=null, Modalidad_de_instalaci_n__c=Modular, Otros_interior_importe__c=null, Compraventa_minima_en_kg__c=null, Fecha_ltima_Sync__c=null, Id_Navision__c=null, Importe_SAU__c=null, Importe_alquiler_contador__c=null, Importe_contador_nuevo__c=null, Importe_dep_sito__c=null, Importe_derechos_acometida__c=null, Importe_derechos_de_alta__c=null, Importe_equipos__c=null, Importe_forfait__c=null, Importe_gesti_n_contrato__c=null, Importe_inspecci_n_quinquenal__c=null, Importe_instalaci_n_exterior__c=null, Importe_instalaci_n_interior__c=null, Importe_obra_Civil__c=null, Importe_proyectos__c=null, Importe_reenganche__c=null, Importe_servicios__c=null, Importe_t_rmino_fijo__c=null, Motivo_de_renovacion__c=null, N_Cliente_anterior__c=null, N_mero_de_vaporizadores__c=null, Prescriptor_no_en_BD__c=null, Primaconta__c=false, Primaservicios_gratuitos__c=true, Promotor__c=null, Reminder_terms_code__c=null, Responsabilidad_Primagas__c=null, Responsabilidad_cliente__c=null, Segmento_1__c=null, Segmento_2__c=null, Servicios__c=null, Subcontratista__c=null, Subcontratista_no_BD__c=null, Tarifa__c=null, Tipo_GNL__c=null, Tipo_de_descuento__c=null, Toma_agua_15_m__c=false, Uso__c=null, Vaporizaci_n_Nm3h__c=null, dcm_propano5__c=null, dcm_propano6__c=null, dto_1__c=null, dto_2__c=null, dto_3__c=null, dto_4__c=null, dto_5__c=null, dto_6__c=null, dto_a_o_5__c=null, dto_a_o_6__c=null, Fecha_fin_contrato__c=2024-06-07 00:00:00, Campa_a_relacionada__c=7013L000000Bh5RQAS, Coordenadas_GPS__Latitude__s=null, Coordenadas_GPS__Longitude__s=null, Derechos_de_titular__c=null, Directorio_pdf__c=null, Entrega_y_colocacion_deposito__c=null, Equipos_instalacion__c=null, Instalacion_exterior__c=null, Instalacion_y_certificado_interior__c=null, Instalador__c=null, Obra_civil_deposito__c=null, Obra_civil_tuberia__c=null, Observaciones_equipos__c=null, Otros_Primagas__c=null, Otros_cliente__c=null, Pago_fraccionado__c=false, Plazo_de_pagos__c=null, Presentacion_en_ayuntamiento__c=null, Proyectista__c=null, Proyecto_exterior_memoria__c=null, Proyecto_interior__c=null, Tramo_con_descuento__c=null, Ubicacion_deposito__c=null, Vallado__c=null, Telemedida__c=false, Forma_de_pago_forfait__c=null, Observaciones_generales__c=null, emailDestinatarioBorrador__c=null, Contrato_original_recibido__c=false, N_Cliente_Navision__c=0, Pago_prima__c=false, Factura_n__c=null, Fraccionar_pago_1er_llenado_en_3__c=false, Tanque_propio__c=false, OldCustomerNavCode__c=null, OldShiptoCode__c=null, Ultima_lectura_de_contador__c=null, N_Pedido_creado__c=null, N_Prescriptor__c=R, Campa_a_aplicada__c=false, DNI__c=null, Pedido_Instalaci_n_creado__c=false, Primaservicios_mes1__c=0.00, Primaservicios_mes2__c=0.00, Primaservicios_mes3__c=0.00, Primaservicios_mes4__c=0.00, Primaservicios_mes5__c=0.00, Tipo_residencia__c=null, Financiacion_externa__c=false, IsTitularChange__c=false, Tramo__c=1, uso_en_contrato__c=null, DateFirstFilled__c=2022-06-07 00:00:00, conv_importe_term_fijo__c=null, conv_importe_SAU__c=00, conv_total2_ds__c=null, conv_fecha_firma_cliente__c=6/6/2022})
+10:29:28.0 (144126393)|STATEMENT_EXECUTE|[52]
+10:29:28.0 (144152057)|HEAP_ALLOCATE|[52]|Bytes:4
+10:29:28.0 (144208994)|STATEMENT_EXECUTE|[53]
+10:29:28.0 (144221762)|HEAP_ALLOCATE|[53]|Bytes:4
+10:29:28.0 (144315415)|STATEMENT_EXECUTE|[55]
+10:29:28.0 (144487713)|HEAP_ALLOCATE|[56]|Bytes:5
+10:29:28.0 (144581475)|HEAP_ALLOCATE|[56]|Bytes:4
+10:29:28.0 (144595135)|STATEMENT_EXECUTE|[57]
+10:29:28.0 (144630987)|STATEMENT_EXECUTE|[58]
+10:29:28.0 (144645802)|HEAP_ALLOCATE|[56]|Bytes:5
+10:29:28.0 (144693987)|STATEMENT_EXECUTE|[64]
+10:29:28.0 (144697097)|STATEMENT_EXECUTE|[73]
+10:29:28.0 (144704659)|HEAP_ALLOCATE|[73]|Bytes:40
+10:29:28.0 (144717803)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+10:29:28.0 (144768682)|HEAP_ALLOCATE|[73]|Bytes:2
+10:29:28.0 (144786880)|HEAP_ALLOCATE|[73]|Bytes:42
+10:29:28.0 (144804250)|USER_DEBUG|[73]|DEBUG|## loadData BEFORE contratosAnteriores: ()
+10:29:28.0 (144816372)|STATEMENT_EXECUTE|[74]
+10:29:28.0 (144820256)|HEAP_ALLOCATE|[74]|Bytes:24
+10:29:28.0 (144844071)|USER_DEBUG|[74]|DEBUG|## after loadData BEFORE
+10:29:28.0 (144870927)|SYSTEM_MODE_EXIT|false
+10:29:28.0 (144892116)|METHOD_EXIT|[23]|01p57000001HcKw|ContractUtil.loadData(List<Contract>, Map<String,Contract>)
+10:29:28.0 (144907941)|METHOD_EXIT|[51]|01p57000001HcKv|ContractHandler.bulkBefore(List<SObject>, Map<Id,SObject>)
+10:29:28.0 (144930946)|STATEMENT_EXECUTE|[60]
+10:29:28.0 (144933860)|STATEMENT_EXECUTE|[61]
+10:29:28.0 (145010947)|METHOD_ENTRY|[61]|01p57000001HcKv|ContractHandler.beforeUpdate(List<SObject>, Map<Id,SObject>)
+10:29:28.0 (145036380)|STATEMENT_EXECUTE|[47]
+10:29:28.0 (145039073)|STATEMENT_EXECUTE|[48]
+10:29:28.0 (145068718)|METHOD_ENTRY|[48]|01p57000001HcKw|ContractUtil.populateContractEndDateUpdate(List<Contract>, Map<Id,Contract>)
+10:29:28.0 (145093587)|SYSTEM_MODE_ENTER|false
+10:29:28.0 (145104424)|HEAP_ALLOCATE|[631]|Bytes:5
+10:29:28.0 (145110993)|STATEMENT_EXECUTE|[630]
+10:29:28.0 (145113597)|STATEMENT_EXECUTE|[631]
+10:29:28.0 (145123703)|HEAP_ALLOCATE|[631]|Bytes:4
+10:29:28.0 (145155323)|STATEMENT_EXECUTE|[633]
+10:29:28.0 (145158029)|STATEMENT_EXECUTE|[633]
+10:29:28.0 (145194796)|HEAP_ALLOCATE|[634]|Bytes:5
+10:29:28.0 (145214425)|HEAP_ALLOCATE|[634]|Bytes:4
+10:29:28.0 (145223567)|STATEMENT_EXECUTE|[634]
+10:29:28.0 (146035954)|STATEMENT_EXECUTE|[635]
+10:29:28.0 (146060560)|HEAP_ALLOCATE|[634]|Bytes:5
+10:29:28.0 (146086763)|SYSTEM_MODE_EXIT|false
+10:29:28.0 (146106926)|METHOD_EXIT|[48]|01p57000001HcKw|ContractUtil.populateContractEndDateUpdate(List<Contract>, Map<Id,Contract>)
+10:29:28.0 (146121481)|METHOD_EXIT|[61]|01p57000001HcKv|ContractHandler.beforeUpdate(List<SObject>, Map<Id,SObject>)
+10:29:28.0 (146131150)|STATEMENT_EXECUTE|[92]
+10:29:28.0 (146147899)|METHOD_ENTRY|[92]|01p57000001HcKv|ContractHandler.andFinally()
+10:29:28.0 (146171975)|STATEMENT_EXECUTE|[91]
+10:29:28.0 (146174556)|STATEMENT_EXECUTE|[92]
+10:29:28.0 (146185590)|METHOD_ENTRY|[92]|01p57000001HcKw|ContractUtil.insertUpdateDeleteRecords()
+10:29:28.0 (146206637)|SYSTEM_MODE_ENTER|false
+10:29:28.0 (146216109)|HEAP_ALLOCATE|[424]|Bytes:5
+10:29:28.0 (146222561)|STATEMENT_EXECUTE|[422]
+10:29:28.0 (146248705)|HEAP_ALLOCATE|[14]|Bytes:5
+10:29:28.0 (146254144)|STATEMENT_EXECUTE|[13]
+10:29:28.0 (146259432)|STATEMENT_EXECUTE|[15]
+10:29:28.0 (146262011)|STATEMENT_EXECUTE|[16]
+10:29:28.0 (146281943)|HEAP_ALLOCATE|[16]|Bytes:4
+10:29:28.0 (146321264)|STATEMENT_EXECUTE|[18]
+10:29:28.0 (146353814)|STATEMENT_EXECUTE|[424]
+10:29:28.0 (146356509)|STATEMENT_EXECUTE|[429]
+10:29:28.0 (146373997)|HEAP_ALLOCATE|[14]|Bytes:5
+10:29:28.0 (146379287)|STATEMENT_EXECUTE|[13]
+10:29:28.0 (146382220)|STATEMENT_EXECUTE|[14]
+10:29:28.0 (146384515)|STATEMENT_EXECUTE|[18]
+10:29:28.0 (146402163)|SYSTEM_MODE_EXIT|false
+10:29:28.0 (146411884)|METHOD_EXIT|[92]|01p57000001HcKw|ContractUtil.insertUpdateDeleteRecords()
+10:29:28.0 (146420710)|METHOD_EXIT|[92]|01p57000001HcKv|ContractHandler.andFinally()
+10:29:28.0 (146430998)|METHOD_EXIT|[33]|01p57000001HcLT|TriggerFactory.execute(ITrigger)
+10:29:28.0 (146443546)|METHOD_EXIT|[4]|01p57000001HcLT|TriggerFactory.createHandler(Schema.SObjectType)
+10:29:28.146 (146459277)|CUMULATIVE_LIMIT_USAGE
+10:29:28.146 (146459277)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 10 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+10:29:28.146 (146459277)|CUMULATIVE_LIMIT_USAGE_END
+
+10:29:28.0 (148465604)|CODE_UNIT_FINISHED|ContractTrigger on Contract trigger event BeforeUpdate|__sfdc_trigger/ContractTrigger
+10:29:28.0 (295834782)|CODE_UNIT_STARTED|[EXTERNAL]|01q57000000g1Lq|ContractTrigger on Contract trigger event AfterUpdate|__sfdc_trigger/ContractTrigger
+10:29:28.0 (295915281)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+10:29:28.0 (295983040)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+10:29:28.0 (296081375)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+10:29:28.0 (296116901)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+10:29:28.0 (296125248)|STATEMENT_EXECUTE|[1]
+10:29:28.0 (296128877)|STATEMENT_EXECUTE|[3]
+10:29:28.0 (296149216)|USER_DEBUG|[3]|DEBUG|**** Contract Trigger ****
+10:29:28.0 (296161633)|STATEMENT_EXECUTE|[4]
+10:29:28.0 (296197203)|METHOD_ENTRY|[4]|01p57000001HcLT|TriggerFactory.createHandler(Schema.SObjectType)
+10:29:28.0 (296206308)|STATEMENT_EXECUTE|[19]
+10:29:28.0 (296208546)|STATEMENT_EXECUTE|[20]
+10:29:28.0 (296834118)|SYSTEM_MODE_ENTER|false
+10:29:28.0 (296866351)|HEAP_ALLOCATE|[83]|Bytes:5
+10:29:28.0 (296876121)|STATEMENT_EXECUTE|[81]
+10:29:28.0 (296882392)|STATEMENT_EXECUTE|[83]
+10:29:28.0 (296884747)|STATEMENT_EXECUTE|[97]
+10:29:28.0 (296889798)|SYSTEM_MODE_EXIT|false
+10:29:28.0 (296907021)|STATEMENT_EXECUTE|[21]
+10:29:28.0 (296931949)|HEAP_ALLOCATE|[21]|Bytes:8
+10:29:28.0 (296942641)|STATEMENT_EXECUTE|[24]
+10:29:28.0 (296960071)|STATEMENT_EXECUTE|[27]
+10:29:28.0 (296972219)|METHOD_ENTRY|[27]|01p57000001HcLT|TriggerFactory.getHandler(Configuration_Switch__mdt, String)
+10:29:28.0 (296983706)|STATEMENT_EXECUTE|[104]
+10:29:28.0 (296987062)|STATEMENT_EXECUTE|[106]
+10:29:28.0 (296989597)|STATEMENT_EXECUTE|[107]
+10:29:28.0 (296992894)|STATEMENT_EXECUTE|[108]
+10:29:28.0 (297008723)|STATEMENT_EXECUTE|[111]
+10:29:28.0 (297012441)|STATEMENT_EXECUTE|[112]
+10:29:28.0 (297026895)|METHOD_ENTRY|[112]||System.Type.forName(String)
+10:29:28.0 (297172729)|METHOD_EXIT|[112]||System.Type.forName(String)
+10:29:28.0 (297183178)|STATEMENT_EXECUTE|[114]
+10:29:28.0 (297185910)|STATEMENT_EXECUTE|[119]
+10:29:28.0 (297191562)|METHOD_ENTRY|[119]||System.Type.newInstance()
+10:29:28.0 (297243039)|STATEMENT_EXECUTE|[5]
+10:29:28.0 (297245660)|STATEMENT_EXECUTE|[8]
+10:29:28.0 (297258302)|HEAP_ALLOCATE|[8]|Bytes:4
+10:29:28.0 (297266610)|STATEMENT_EXECUTE|[10]
+10:29:28.0 (297274896)|HEAP_ALLOCATE|[10]|Bytes:4
+10:29:28.0 (297283892)|STATEMENT_EXECUTE|[13]
+10:29:28.0 (297299533)|METHOD_EXIT|[119]||System.Type.newInstance()
+10:29:28.0 (297365869)|STATEMENT_EXECUTE|[122]
+10:29:28.0 (297367842)|STATEMENT_EXECUTE|[123]
+10:29:28.0 (297377562)|METHOD_EXIT|[27]|01p57000001HcLT|TriggerFactory.getHandler(Configuration_Switch__mdt, String)
+10:29:28.0 (297383754)|STATEMENT_EXECUTE|[31]
+10:29:28.0 (297385660)|STATEMENT_EXECUTE|[33]
+10:29:28.0 (297391202)|METHOD_ENTRY|[33]|01p57000001HcLT|TriggerFactory.execute(ITrigger)
+10:29:28.0 (297396990)|STATEMENT_EXECUTE|[46]
+10:29:28.0 (297402538)|STATEMENT_EXECUTE|[70]
+10:29:28.0 (297404435)|STATEMENT_EXECUTE|[72]
+10:29:28.0 (297461582)|METHOD_ENTRY|[72]|01p57000001HcKv|ContractHandler.bulkAfter(List<SObject>, Map<Id,SObject>)
+10:29:28.0 (297480560)|STATEMENT_EXECUTE|[27]
+10:29:28.0 (297482530)|STATEMENT_EXECUTE|[28]
+10:29:28.0 (297495514)|METHOD_ENTRY|[28]|01p57000001HcKw|ContractUtil.loadData(List<SObject>, Map<String,Account>)
+10:29:28.0 (297514701)|SYSTEM_MODE_ENTER|false
+10:29:28.0 (297522015)|HEAP_ALLOCATE|[25]|Bytes:5
+10:29:28.0 (297526918)|STATEMENT_EXECUTE|[24]
+10:29:28.0 (297528795)|STATEMENT_EXECUTE|[25]
+10:29:28.0 (297533882)|HEAP_ALLOCATE|[25]|Bytes:24
+10:29:28.0 (297559437)|USER_DEBUG|[25]|DEBUG|## before loadData AFTER
+10:29:28.0 (297567793)|STATEMENT_EXECUTE|[26]
+10:29:28.0 (297575654)|HEAP_ALLOCATE|[26]|Bytes:4
+10:29:28.0 (297601486)|STATEMENT_EXECUTE|[27]
+10:29:28.0 (297605927)|HEAP_ALLOCATE|[27]|Bytes:4
+10:29:28.0 (297618276)|STATEMENT_EXECUTE|[30]
+10:29:28.0 (297651985)|HEAP_ALLOCATE|[31]|Bytes:5
+10:29:28.0 (297670045)|STATEMENT_EXECUTE|[32]
+10:29:28.0 (297672071)|STATEMENT_EXECUTE|[33]
+10:29:28.0 (297815812)|HEAP_ALLOCATE|[31]|Bytes:5
+10:29:28.0 (297859695)|STATEMENT_EXECUTE|[37]
+10:29:28.0 (297862493)|STATEMENT_EXECUTE|[38]
+10:29:28.0 (297895025)|HEAP_ALLOCATE|[38]|Bytes:4
+10:29:28.0 (297972892)|STATEMENT_EXECUTE|[39]
+10:29:28.0 (297977137)|HEAP_ALLOCATE|[39]|Bytes:104
+10:29:28.0 (297991109)|HEAP_ALLOCATE|[39]|Bytes:4
+10:29:28.0 (297999119)|HEAP_ALLOCATE|[39]|Bytes:7
+10:29:28.0 (298038098)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+10:29:28.0 (298727081)|SOQL_EXECUTE_BEGIN|[39]|Aggregations:0|SELECT Id, Name, RecordTypeId, Cod_terminos_pago__c, Cod_forma_pago__c FROM Account WHERE Id IN :tmpVar1
+10:29:28.0 (304043184)|SOQL_EXECUTE_EXPLAIN|[39]|Index on Account : [Id], cardinality: 1, sobjectCardinality: 39675, relativeCost 0
+10:29:28.0 (304068754)|SOQL_EXECUTE_END|[39]|Rows:1
+10:29:28.0 (304110052)|HEAP_ALLOCATE|[39]|Bytes:8
+10:29:28.0 (304149668)|HEAP_ALLOCATE|[39]|Bytes:106
+10:29:28.0 (304201703)|HEAP_ALLOCATE|[39]|Bytes:8
+10:29:28.0 (304437227)|HEAP_ALLOCATE|[40]|Bytes:5
+10:29:28.0 (304495876)|HEAP_ALLOCATE|[40]|Bytes:16
+10:29:28.0 (304508814)|STATEMENT_EXECUTE|[41]
+10:29:28.0 (304512811)|STATEMENT_EXECUTE|[42]
+10:29:28.0 (304657500)|HEAP_ALLOCATE|[40]|Bytes:5
+10:29:28.0 (304673801)|STATEMENT_EXECUTE|[46]
+10:29:28.0 (304682473)|HEAP_ALLOCATE|[46]|Bytes:23
+10:29:28.0 (304724769)|USER_DEBUG|[46]|DEBUG|## after loadData AFTER
+10:29:28.0 (304741358)|SYSTEM_MODE_EXIT|false
+10:29:28.0 (304763200)|METHOD_EXIT|[28]|01p57000001HcKw|ContractUtil.loadData(List<SObject>, Map<String,Account>)
+10:29:28.0 (304779522)|STATEMENT_EXECUTE|[30]
+10:29:28.0 (304787385)|METHOD_EXIT|[72]|01p57000001HcKv|ContractHandler.bulkAfter(List<SObject>, Map<Id,SObject>)
+10:29:28.0 (304800540)|STATEMENT_EXECUTE|[81]
+10:29:28.0 (304803063)|STATEMENT_EXECUTE|[82]
+10:29:28.0 (304883827)|METHOD_ENTRY|[82]|01p57000001HcKv|ContractHandler.afterUpdate(List<SObject>, Map<Id,SObject>)
+10:29:28.0 (304908387)|STATEMENT_EXECUTE|[70]
+10:29:28.0 (304911283)|STATEMENT_EXECUTE|[72]
+10:29:28.0 (304939724)|METHOD_ENTRY|[72]|01p57000001HcKw|ContractUtil.actualizarDatosClienteYDireccionEntrega(List<Contract>, Map<Id,Contract>, Map<String,Account>)
+10:29:28.0 (304968297)|SYSTEM_MODE_ENTER|false
+10:29:28.0 (304980128)|HEAP_ALLOCATE|[300]|Bytes:5
+10:29:28.0 (304986877)|STATEMENT_EXECUTE|[299]
+10:29:28.0 (304991246)|STATEMENT_EXECUTE|[301]
+10:29:28.0 (304993934)|STATEMENT_EXECUTE|[302]
+10:29:28.0 (305005456)|HEAP_ALLOCATE|[302]|Bytes:4
+10:29:28.0 (305046008)|STATEMENT_EXECUTE|[303]
+10:29:28.0 (305058804)|HEAP_ALLOCATE|[303]|Bytes:4
+10:29:28.0 (305070314)|STATEMENT_EXECUTE|[304]
+10:29:28.0 (305145373)|HEAP_ALLOCATE|[304]|Bytes:4
+10:29:28.0 (305284020)|HEAP_ALLOCATE|[305]|Bytes:5
+10:29:28.0 (305310791)|STATEMENT_EXECUTE|[306]
+10:29:28.0 (305402834)|STATEMENT_EXECUTE|[307]
+10:29:28.0 (305413790)|HEAP_ALLOCATE|[305]|Bytes:5
+10:29:28.0 (305447190)|STATEMENT_EXECUTE|[338]
+10:29:28.0 (305449360)|STATEMENT_EXECUTE|[354]
+10:29:28.0 (305452415)|HEAP_ALLOCATE|[354]|Bytes:17
+10:29:28.0 (305463337)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+10:29:28.0 (305498432)|HEAP_ALLOCATE|[354]|Bytes:2
+10:29:28.0 (305512928)|HEAP_ALLOCATE|[354]|Bytes:19
+10:29:28.0 (305524866)|USER_DEBUG|[354]|DEBUG|##cuentasUpdate: ()
+10:29:28.0 (305549797)|STATEMENT_EXECUTE|[355]
+10:29:28.0 (305552497)|STATEMENT_EXECUTE|[372]
+10:29:28.0 (305556018)|HEAP_ALLOCATE|[372]|Bytes:21
+10:29:28.0 (305563224)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+10:29:28.0 (305581846)|HEAP_ALLOCATE|[372]|Bytes:2
+10:29:28.0 (305592080)|HEAP_ALLOCATE|[372]|Bytes:23
+10:29:28.0 (305600458)|USER_DEBUG|[372]|DEBUG|##direccionesUpdate: ()
+10:29:28.0 (305624613)|STATEMENT_EXECUTE|[373]
+10:29:28.0 (305630347)|SYSTEM_MODE_EXIT|false
+10:29:28.0 (305643377)|METHOD_EXIT|[72]|01p57000001HcKw|ContractUtil.actualizarDatosClienteYDireccionEntrega(List<Contract>, Map<Id,Contract>, Map<String,Account>)
+10:29:28.0 (305648858)|STATEMENT_EXECUTE|[73]
+10:29:28.0 (305669448)|METHOD_ENTRY|[73]|01p57000001HcKw|ContractUtil.RegistrarContrato(List<Contract>, Map<Id,Contract>, Map<String,Account>)
+10:29:28.0 (305688458)|SYSTEM_MODE_ENTER|false
+10:29:28.0 (305694800)|HEAP_ALLOCATE|[142]|Bytes:5
+10:29:28.0 (305700781)|STATEMENT_EXECUTE|[141]
+10:29:28.0 (305739766)|STATEMENT_EXECUTE|[142]
+10:29:28.0 (305747190)|HEAP_ALLOCATE|[142]|Bytes:37
+10:29:28.0 (310006008)|HEAP_ALLOCATE|[142]|Bytes:6747
+10:29:28.0 (310061674)|HEAP_ALLOCATE|[142]|Bytes:6784
+10:29:28.0 (310081943)|USER_DEBUG|[142]|DEBUG|## before RegistrarContrato newList: (Contract:{Id=8003L0000003ksrQAA, AccountId=0013L00000LfR0wQAF, OwnerExpirationNotice=null, StartDate=2022-06-06 00:00:00, EndDate=null, BillingStreet=null, BillingCity=null, BillingState=null, BillingPostalCode=null, BillingCountry=null, BillingLatitude=null, BillingLongitude=null, BillingGeocodeAccuracy=null, ShippingStreet=null, ShippingCity=null, ShippingState=null, ShippingPostalCode=null, ShippingCountry=null, ShippingLatitude=null, ShippingLongitude=null, ShippingGeocodeAccuracy=null, ContractTerm=null, OwnerId=0052p000008i9TAAAY, Status=Borrador, CompanySignedId=null, CompanySignedDate=null, CustomerSignedId=null, CustomerSignedTitle=null, CustomerSignedDate=2022-06-06 00:00:00, SpecialTerms=null, ActivatedById=null, ActivatedDate=null, StatusCode=Draft, Description=null, RecordTypeId=012D00000003GZSIA2, Name=null, IsDeleted=false, ContractNumber=00046255, LastApprovedDate=null, CreatedDate=2022-07-21 10:51:22, CreatedById=0052p000008i9TAAAY, LastModifiedDate=2022-08-03 08:29:29, LastModifiedById=0052p000008i9TAAAY, SystemModstamp=2022-08-03 08:29:29, LastActivityDate=null, LastViewedDate=null, LastReferencedDate=null, Comarca__c=null, Territorio__c=null, N_cliente_existente__c=null, N_telefono__c=null, N_telefono_movil__c=612496984, N_fax__c=null, Cod_tarifa__c=null, Cod_forma_de_pago__c=null, Cod_terminos_de_pago__c=null, Cod_dia_de_pago__c=null, Duracion_contrato_en_toneladas__c=null, Consumo_previsto_Kgs__c=null, Coste_resolucion_anticipada__c=null, Producto_contratado__c=null, Prescriptor__c=null, Segmento__c=null, Importe_prima__c=null, Importe_prima_por_tonelada__c=null, Numero_de_contrato_app__c=null, Rentabilidad_prevista__c=null, dp_cad_min1__c=null, dp_cad_min2__c=null, dp_cad_min3__c=null, SWI__c=null, IBAN__c=null, CIF__c=888888, Nombre_cliente__c=null, e_mail__c=null, Cod_CNAE__c=null, Entrega_de_producto__c=Automática, Origen__c=null, Origen_tipo_de_cliente__c=null, Perfil_de_consumo__c=null, Cod_forma_pago_servicios__c=null, Cod_terminos_pago_servicios__c=null, dp_cad_min4__c=null, dp_cad_min5__c=null, dp_cad_min6__c=null, dto_Kg_1__c=null, dto_Kg_2__c=null, dto_Kg_3__c=null, dto_Kg_4__c=null, dto_Kg_5__c=null, dto_Kg_6__c=null, dcm_propano1__c=null, dcm_propano2__c=null, dcm_propano3__c=null, dcm_propano4__c=null, dto_a_o_1__c=null, dto_a_o_2__c=null, dto_a_o_3__c=null, dto_a_o_4__c=null, Cobertura_movil__c=false, Tipo_de_tanque__c=null, Capacidad_tanque__c=null, Tipo__c=null, Tipo_camion__c=null, Perfil_base__c=null, Fecha_prevista_1er_llenado__c=null, Fecha_prevista_obra_civil__c=null, TP_tipo_instalacion__c=null, Importe_modalidad_instalacion__c=null, Altitud__c=null, Proyecto_exterior_importe__c=null, Aportaci_n_al_cliente__c=null, Obra_civil_deposito_importe__c=null, Canalizado_promotor__c=null, Obra_civil_zanjas_importe__c=null, Carburante__c=false, Obra_civil_vallado_importe__c=null, Consumo_previsto_GWh__c=null, ECD_grua_importe__c=null, Consumo_previsto_tons__c=1000, Gestion_instalacion_importe__c=null, Contrato_anterior__c=null, Conexion_gas_red_ext_importe__c=null, Coste_resolucion_anticipada_MWh__c=null, Prueba_instalacion_importe__c=null, Coste_resolucion_anticipada_toneladas__c=null, LI_legaliz_inst_ext_importe__c=null, LI_extintores_importe__c=null, Direccion_de_entrega__c=a003L000003TKLpQAO, Duraci_n_contrato_GWh__c=null, Proyecto_interior_importe__c=null, Duraci_n_del_contrato_a_os__c=2, Conexion_certificado_interior_importe__c=null, Error_Sync__c=false, Contadores_importe__c=null, Estado_2__c=Nuevo, Otros_exterior__c=null, Aportacion_maxima_interior__c=null, Caldera__c=null, Inertizado_Dep_Cliente__c=null, Inversion_recuperable__c=null, Inversion_no_recuperable__c=null, Oportunidad__c=null, Modalidad_de_instalaci_n__c=Modular, Otros_interior_importe__c=null, Compraventa_minima_en_kg__c=null, Fecha_ltima_Sync__c=null, Id_Navision__c=null, Importe_SAU__c=null, Importe_alquiler_contador__c=null, Importe_contador_nuevo__c=null, Importe_dep_sito__c=null, Importe_derechos_acometida__c=null, Importe_derechos_de_alta__c=null, Importe_equipos__c=null, Importe_forfait__c=null, Importe_gesti_n_contrato__c=null, Importe_inspecci_n_quinquenal__c=null, Importe_instalaci_n_exterior__c=null, Importe_instalaci_n_interior__c=null, Importe_obra_Civil__c=null, Importe_proyectos__c=null, Importe_reenganche__c=null, Importe_servicios__c=null, Importe_t_rmino_fijo__c=null, Motivo_de_renovacion__c=null, N_Cliente_anterior__c=null, N_mero_de_vaporizadores__c=null, Prescriptor_no_en_BD__c=null, Primaconta__c=false, Primaservicios_gratuitos__c=true, Promotor__c=null, Reminder_terms_code__c=null, Responsabilidad_Primagas__c=null, Responsabilidad_cliente__c=null, Segmento_1__c=null, Segmento_2__c=null, Servicios__c=null, Subcontratista__c=null, Subcontratista_no_BD__c=null, Tarifa__c=null, Tipo_GNL__c=null, Tipo_de_descuento__c=null, Toma_agua_15_m__c=false, Uso__c=null, Vaporizaci_n_Nm3h__c=null, dcm_propano5__c=null, dcm_propano6__c=null, dto_1__c=null, dto_2__c=null, dto_3__c=null, dto_4__c=null, dto_5__c=null, dto_6__c=null, dto_a_o_5__c=null, dto_a_o_6__c=null, Fecha_fin_contrato__c=2024-06-07 00:00:00, Campa_a_relacionada__c=7013L000000Bh5RQAS, Coordenadas_GPS__Latitude__s=null, Coordenadas_GPS__Longitude__s=null, Derechos_de_titular__c=null, Directorio_pdf__c=null, Entrega_y_colocacion_deposito__c=null, Equipos_instalacion__c=null, Instalacion_exterior__c=null, Instalacion_y_certificado_interior__c=null, Instalador__c=null, Obra_civil_deposito__c=null, Obra_civil_tuberia__c=null, Observaciones_equipos__c=null, Otros_Primagas__c=null, Otros_cliente__c=null, Pago_fraccionado__c=false, Plazo_de_pagos__c=null, Presentacion_en_ayuntamiento__c=null, Proyectista__c=null, Proyecto_exterior_memoria__c=null, Proyecto_interior__c=null, Tramo_con_descuento__c=null, Ubicacion_deposito__c=null, Vallado__c=null, Telemedida__c=false, Forma_de_pago_forfait__c=null, Observaciones_generales__c=null, emailDestinatarioBorrador__c=null, Contrato_original_recibido__c=false, N_Cliente_Navision__c=0, Pago_prima__c=false, Factura_n__c=null, Fraccionar_pago_1er_llenado_en_3__c=false, Tanque_propio__c=false, OldCustomerNavCode__c=null, OldShiptoCode__c=null, Ultima_lectura_de_contador__c=null, N_Pedido_creado__c=null, N_Prescriptor__c=R, Campa_a_aplicada__c=false, DNI__c=null, Pedido_Instalaci_n_creado__c=false, Primaservicios_mes1__c=0.00, Primaservicios_mes2__c=0.00, Primaservicios_mes3__c=0.00, Primaservicios_mes4__c=0.00, Primaservicios_mes5__c=0.00, Tipo_residencia__c=null, Financiacion_externa__c=false, IsTitularChange__c=false, Tramo__c=1, uso_en_contrato__c=null, DateFirstFilled__c=2022-06-07 00:00:00, conv_importe_term_fijo__c=null, conv_importe_SAU__c=00, conv_total2_ds__c=null, conv_fecha_firma_cliente__c=6/6/2022})
+10:29:28.0 (310178525)|STATEMENT_EXECUTE|[144]
+10:29:28.0 (310181739)|STATEMENT_EXECUTE|[145]
+10:29:28.0 (310186025)|HEAP_ALLOCATE|[145]|Bytes:14
+10:29:28.0 (310251893)|HEAP_ALLOCATE|[145]|Bytes:26
+10:29:28.0 (310280477)|HEAP_ALLOCATE|[145]|Bytes:20
+10:29:28.0 (310317144)|HEAP_ALLOCATE|[145]|Bytes:34
+10:29:28.0 (310326933)|USER_DEBUG|[145]|DEBUG|mapaClientes: {0013L00000LfR0wQAF}
+10:29:28.0 (310335402)|STATEMENT_EXECUTE|[147]
+10:29:28.0 (310337424)|STATEMENT_EXECUTE|[148]
+10:29:28.0 (310347654)|HEAP_ALLOCATE|[148]|Bytes:4
+10:29:28.0 (310376812)|STATEMENT_EXECUTE|[149]
+10:29:28.0 (310385983)|HEAP_ALLOCATE|[149]|Bytes:4
+10:29:28.0 (310392330)|STATEMENT_EXECUTE|[150]
+10:29:28.0 (310394783)|STATEMENT_EXECUTE|[151]
+10:29:28.0 (310445832)|HEAP_ALLOCATE|[109]|Bytes:5
+10:29:28.0 (310450613)|STATEMENT_EXECUTE|[108]
+10:29:28.0 (310456424)|STATEMENT_EXECUTE|[110]
+10:29:28.0 (310458688)|STATEMENT_EXECUTE|[111]
+10:29:28.0 (310470579)|HEAP_ALLOCATE|[111]|Bytes:4
+10:29:28.0 (310506428)|HEAP_ALLOCATE|[112]|Bytes:90
+10:29:28.0 (310515102)|HEAP_ALLOCATE|[112]|Bytes:4
+10:29:28.0 (310844657)|SOQL_EXECUTE_BEGIN|[112]|Aggregations:0|SELECT Id, DeveloperName, SObjectType FROM RecordType ORDER BY CreatedDate ASC NULLS FIRST
+10:29:28.0 (345942218)|SOQL_EXECUTE_EXPLAIN|[112]|TableScan on RecordType : [], cardinality: 10, sobjectCardinality: 10, relativeCost 2.833
+10:29:28.0 (345963758)|SOQL_EXECUTE_END|[112]|Rows:36
+10:29:28.0 (345990295)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:148
+10:29:28.0 (346195147)|HEAP_ALLOCATE|[112]|Bytes:54
+10:29:28.0 (346206133)|HEAP_ALLOCATE|[112]|Bytes:8
+10:29:28.0 (346224462)|SYSTEM_METHOD_ENTRY|[7]|QueryLocatorIterator.QueryLocatorIterator()
+10:29:28.0 (346229645)|STATEMENT_EXECUTE|[7]
+10:29:28.0 (346240131)|SYSTEM_METHOD_EXIT|[7]|QueryLocatorIterator
+10:29:28.0 (346248559)|HEAP_ALLOCATE|[112]|Bytes:28
+10:29:28.0 (346296266)|HEAP_ALLOCATE|[112]|Bytes:148
+10:29:28.0 (346310279)|HEAP_ALLOCATE|[112]|Bytes:8
+10:29:28.0 (346314288)|HEAP_ALLOCATE|[112]|Bytes:8
+10:29:28.0 (346354719)|HEAP_ALLOCATE|[112]|Bytes:28
+10:29:28.0 (346381550)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (346474309)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (346482440)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (346555867)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (346563040)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (346641257)|STATEMENT_EXECUTE|[115]
+10:29:28.0 (346643830)|STATEMENT_EXECUTE|[116]
+10:29:28.0 (346663519)|HEAP_ALLOCATE|[116]|Bytes:4
+10:29:28.0 (346787504)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (346791321)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (346833969)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (346878433)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (346886778)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (346948261)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (346958957)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (346981881)|STATEMENT_EXECUTE|[115]
+10:29:28.0 (346985293)|STATEMENT_EXECUTE|[116]
+10:29:28.0 (347001242)|HEAP_ALLOCATE|[116]|Bytes:4
+10:29:28.0 (347040713)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (347043563)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (347068080)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (347087838)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (347094034)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (347140243)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (347147533)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (347163298)|STATEMENT_EXECUTE|[114]
+10:29:28.0 (347184264)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (347186588)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (347208998)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (347227852)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (347234237)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (347277043)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (347282278)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (347293350)|STATEMENT_EXECUTE|[115]
+10:29:28.0 (347295253)|STATEMENT_EXECUTE|[116]
+10:29:28.0 (347305741)|HEAP_ALLOCATE|[116]|Bytes:4
+10:29:28.0 (347331963)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (347333905)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (347351063)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (347363504)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (347368010)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (347397171)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (347401730)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (347412092)|STATEMENT_EXECUTE|[114]
+10:29:28.0 (347427520)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (347429743)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (347452708)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (347470554)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (347476555)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (347516028)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (347522421)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (347536507)|STATEMENT_EXECUTE|[115]
+10:29:28.0 (347538820)|STATEMENT_EXECUTE|[116]
+10:29:28.0 (347549887)|HEAP_ALLOCATE|[116]|Bytes:4
+10:29:28.0 (347582839)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (347585250)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (347607574)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (347630267)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (347637438)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (347682617)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (347689821)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (347705073)|STATEMENT_EXECUTE|[115]
+10:29:28.0 (347707586)|STATEMENT_EXECUTE|[116]
+10:29:28.0 (347720115)|HEAP_ALLOCATE|[116]|Bytes:4
+10:29:28.0 (347746516)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (347748455)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (347764910)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (347778214)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (347782822)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (347818419)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (347824541)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (347845772)|STATEMENT_EXECUTE|[114]
+10:29:28.0 (347876857)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (347879238)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (347903653)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (347923891)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (347930255)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (347966125)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (347970814)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (347982384)|STATEMENT_EXECUTE|[114]
+10:29:28.0 (347998049)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (347999928)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (348016150)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (348029985)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (348034869)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (348063221)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (348067782)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (348077422)|STATEMENT_EXECUTE|[114]
+10:29:28.0 (348092272)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (348094183)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (348109707)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (348121686)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (348126019)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (348153856)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (348157977)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (348167735)|STATEMENT_EXECUTE|[114]
+10:29:28.0 (348182341)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (348184147)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (348200540)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (348212894)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (348217660)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (348245152)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (348249170)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (348258799)|STATEMENT_EXECUTE|[114]
+10:29:28.0 (348273943)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (348275753)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (348292264)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (348304530)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (348309786)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (348338619)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (348342709)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (348351834)|STATEMENT_EXECUTE|[115]
+10:29:28.0 (348353683)|STATEMENT_EXECUTE|[116]
+10:29:28.0 (348363221)|HEAP_ALLOCATE|[116]|Bytes:4
+10:29:28.0 (348388056)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (348389937)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (348406001)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (348418222)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (348422621)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (348463673)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (348468763)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (348479646)|STATEMENT_EXECUTE|[114]
+10:29:28.0 (348494581)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (348496620)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (348519042)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (348536447)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (348541605)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (348576128)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (348580465)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (348590969)|STATEMENT_EXECUTE|[114]
+10:29:28.0 (348605829)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (348607673)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (348623413)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (348635120)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (348639717)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (348673921)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (348680702)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (348694330)|STATEMENT_EXECUTE|[114]
+10:29:28.0 (348709083)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (348710913)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (348726758)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (348739278)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (348743869)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (348773204)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (348777775)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (348787613)|STATEMENT_EXECUTE|[115]
+10:29:28.0 (348789411)|STATEMENT_EXECUTE|[116]
+10:29:28.0 (348798263)|HEAP_ALLOCATE|[116]|Bytes:4
+10:29:28.0 (348822719)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (348824553)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (348840086)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (348862364)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (348867050)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (348897001)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (348901110)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (348911391)|STATEMENT_EXECUTE|[114]
+10:29:28.0 (348926560)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (348928385)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (348945229)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (348958026)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (348963236)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (348991514)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (348995519)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (349004851)|STATEMENT_EXECUTE|[114]
+10:29:28.0 (349022874)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (349024752)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (349040866)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (349052479)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (349056535)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (349095782)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (349102465)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (349116880)|STATEMENT_EXECUTE|[114]
+10:29:28.0 (349132793)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (349134596)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (349150916)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (349163074)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (349167621)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (349202143)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (349207729)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (349218515)|STATEMENT_EXECUTE|[114]
+10:29:28.0 (349233156)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (349234960)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (349250722)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (349262905)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (349267328)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (349295484)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (349299369)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (349312017)|STATEMENT_EXECUTE|[115]
+10:29:28.0 (349314285)|STATEMENT_EXECUTE|[116]
+10:29:28.0 (349325817)|HEAP_ALLOCATE|[116]|Bytes:4
+10:29:28.0 (349358315)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (349360655)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (349383670)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (349402066)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (349408962)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (349451290)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (349456883)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (349472964)|STATEMENT_EXECUTE|[114]
+10:29:28.0 (349492461)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (349494404)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (349516685)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (349535783)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (349542480)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (349582275)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (349587589)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (349598906)|STATEMENT_EXECUTE|[114]
+10:29:28.0 (349614242)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (349616029)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (349632046)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (349644308)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (349649074)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (349678657)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (349683381)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (349693162)|STATEMENT_EXECUTE|[114]
+10:29:28.0 (349707986)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (349709929)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (349725797)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (349738086)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (349742471)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (349769990)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (349773954)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (349783582)|STATEMENT_EXECUTE|[114]
+10:29:28.0 (349798102)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (349799916)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (349815057)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (349827767)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (349832378)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (349867919)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (349872439)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (349882417)|STATEMENT_EXECUTE|[115]
+10:29:28.0 (349884275)|STATEMENT_EXECUTE|[116]
+10:29:28.0 (349894042)|HEAP_ALLOCATE|[116]|Bytes:4
+10:29:28.0 (349919068)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (349920967)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (349937034)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (349949252)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (349953671)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (349981390)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (349985718)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (349995619)|STATEMENT_EXECUTE|[114]
+10:29:28.0 (350011213)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (350013759)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (350030191)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (350042680)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (350047108)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (350075079)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (350079290)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (350088941)|STATEMENT_EXECUTE|[114]
+10:29:28.0 (350104075)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (350105857)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (350121678)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (350133831)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (350138062)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (350168379)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (350178940)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (350195989)|STATEMENT_EXECUTE|[114]
+10:29:28.0 (350212584)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (350214493)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (350231554)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (350246258)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (350250765)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (350281765)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (350285957)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (350295613)|STATEMENT_EXECUTE|[114]
+10:29:28.0 (350311094)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (350315693)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (350344489)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (350365671)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (350373293)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (350412745)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (350419594)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (350434605)|STATEMENT_EXECUTE|[114]
+10:29:28.0 (350451779)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (350453731)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (350471426)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (350484849)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (350489791)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (350520724)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (350525267)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (350534814)|STATEMENT_EXECUTE|[114]
+10:29:28.0 (350555149)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (350557682)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (350580766)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (350601684)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (350608330)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (350652614)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (350659385)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (350674267)|STATEMENT_EXECUTE|[114]
+10:29:28.0 (350698089)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (350700922)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (350723336)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (350742495)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (350750329)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (350786417)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (350791550)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (350802681)|STATEMENT_EXECUTE|[114]
+10:29:28.0 (350818408)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (350820301)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (350836163)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (350853850)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (350858436)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (350887985)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.next()
+10:29:28.0 (350892475)|STATEMENT_EXECUTE|[113]
+10:29:28.0 (350905281)|STATEMENT_EXECUTE|[114]
+10:29:28.0 (350928820)|STATEMENT_EXECUTE|[120]
+10:29:28.0 (350931155)|STATEMENT_EXECUTE|[121]
+10:29:28.0 (350950032)|METHOD_ENTRY|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (350959774)|METHOD_EXIT|[112]||Database.QueryLocatorIterator.hasNext()
+10:29:28.0 (350980045)|STATEMENT_EXECUTE|[126]
+10:29:28.0 (350996005)|HEAP_ALLOCATE|[151]|Bytes:7
+10:29:28.0 (351014853)|HEAP_ALLOCATE|[151]|Bytes:17
+10:29:28.0 (351075886)|HEAP_ALLOCATE|[152]|Bytes:5
+10:29:28.0 (351096855)|STATEMENT_EXECUTE|[153]
+10:29:28.0 (351098909)|STATEMENT_EXECUTE|[154]
+10:29:28.0 (351139222)|STATEMENT_EXECUTE|[159]
+10:29:28.0 (351141873)|HEAP_ALLOCATE|[159]|Bytes:39
+10:29:28.0 (351208641)|HEAP_ALLOCATE|[159]|Bytes:3
+10:29:28.0 (351235844)|HEAP_ALLOCATE|[159]|Bytes:58
+10:29:28.0 (351272821)|USER_DEBUG|[159]|DEBUG|contratoAnterior.Status - contrato --> Borrador - Borrador
+10:29:28.0 (351324256)|STATEMENT_EXECUTE|[161]
+10:29:28.0 (351337909)|HEAP_ALLOCATE|[152]|Bytes:5
+10:29:28.0 (351348425)|STATEMENT_EXECUTE|[187]
+10:29:28.0 (351358531)|HEAP_ALLOCATE|[187]|Bytes:4
+10:29:28.0 (351403871)|STATEMENT_EXECUTE|[189]
+10:29:28.0 (351419997)|STATEMENT_EXECUTE|[201]
+10:29:28.0 (351422299)|STATEMENT_EXECUTE|[207]
+10:29:28.0 (351425640)|HEAP_ALLOCATE|[207]|Bytes:26
+10:29:28.0 (351439149)|USER_DEBUG|[207]|DEBUG|## after RegistrarContrato
+10:29:28.0 (351452564)|SYSTEM_MODE_EXIT|false
+10:29:28.0 (351468006)|METHOD_EXIT|[73]|01p57000001HcKw|ContractUtil.RegistrarContrato(List<Contract>, Map<Id,Contract>, Map<String,Account>)
+10:29:28.0 (351473771)|STATEMENT_EXECUTE|[74]
+10:29:28.0 (351485726)|METHOD_ENTRY|[74]|01p57000001HcKw|ContractUtil.cambiarEstadoOportunidadCerradaGanada(List<Contract>)
+10:29:28.0 (351509565)|SYSTEM_MODE_ENTER|false
+10:29:28.0 (351515289)|HEAP_ALLOCATE|[257]|Bytes:5
+10:29:28.0 (351519533)|STATEMENT_EXECUTE|[256]
+10:29:28.0 (351521448)|STATEMENT_EXECUTE|[257]
+10:29:28.0 (351527983)|HEAP_ALLOCATE|[257]|Bytes:4
+10:29:28.0 (351564102)|HEAP_ALLOCATE|[259]|Bytes:5
+10:29:28.0 (351578145)|STATEMENT_EXECUTE|[260]
+10:29:28.0 (351620742)|STATEMENT_EXECUTE|[261]
+10:29:28.0 (351628453)|HEAP_ALLOCATE|[259]|Bytes:5
+10:29:28.0 (351637018)|STATEMENT_EXECUTE|[266]
+10:29:28.0 (351639914)|HEAP_ALLOCATE|[266]|Bytes:20
+10:29:28.0 (351670613)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+10:29:28.0 (351704727)|HEAP_ALLOCATE|[266]|Bytes:2
+10:29:28.0 (351718250)|HEAP_ALLOCATE|[266]|Bytes:22
+10:29:28.0 (351727948)|USER_DEBUG|[266]|DEBUG|Contratos firmados: ()
+10:29:28.0 (351735620)|STATEMENT_EXECUTE|[268]
+10:29:28.0 (351739572)|HEAP_ALLOCATE|[268]|Bytes:78
+10:29:28.0 (351752296)|HEAP_ALLOCATE|[268]|Bytes:4
+10:29:28.0 (353655313)|SOQL_EXECUTE_BEGIN|[268]|Aggregations:0|SELECT Id, StageName, ContractId FROM Opportunity WHERE ContractId IN :tmpVar1
+10:29:28.0 (356008316)|SOQL_EXECUTE_EXPLAIN|[268]|No explain plan is available
+10:29:28.0 (356026687)|SOQL_EXECUTE_END|[268]|Rows:0
+10:29:28.0 (356057276)|HEAP_ALLOCATE|[268]|Bytes:4
+10:29:28.0 (356083311)|HEAP_ALLOCATE|[268]|Bytes:0
+10:29:28.0 (356137476)|HEAP_ALLOCATE|[268]|Bytes:4
+10:29:28.0 (356153623)|STATEMENT_EXECUTE|[269]
+10:29:28.0 (356162997)|HEAP_ALLOCATE|[269]|Bytes:4
+10:29:28.0 (356381133)|HEAP_ALLOCATE|[270]|Bytes:5
+10:29:28.0 (356394757)|STATEMENT_EXECUTE|[270]
+10:29:28.0 (356397289)|STATEMENT_EXECUTE|[278]
+10:29:28.0 (356400826)|HEAP_ALLOCATE|[278]|Bytes:50
+10:29:28.0 (356410216)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+10:29:28.0 (356448045)|HEAP_ALLOCATE|[278]|Bytes:2
+10:29:28.0 (356462199)|HEAP_ALLOCATE|[278]|Bytes:52
+10:29:28.0 (356477472)|USER_DEBUG|[278]|DEBUG|Oportunidades a pasar al estado "Cerrada ganada": ()
+10:29:28.0 (356502250)|STATEMENT_EXECUTE|[280]
+10:29:28.0 (356507662)|SYSTEM_MODE_EXIT|false
+10:29:28.0 (356522892)|METHOD_EXIT|[74]|01p57000001HcKw|ContractUtil.cambiarEstadoOportunidadCerradaGanada(List<Contract>)
+10:29:28.0 (356528933)|STATEMENT_EXECUTE|[75]
+10:29:28.0 (356547739)|METHOD_ENTRY|[75]|01p57000001HcKw|ContractUtil.activarDireccionEntrega(List<Contract>, Map<Id,Contract>)
+10:29:28.0 (356569652)|SYSTEM_MODE_ENTER|false
+10:29:28.0 (356576857)|HEAP_ALLOCATE|[536]|Bytes:5
+10:29:28.0 (356582289)|STATEMENT_EXECUTE|[535]
+10:29:28.0 (356584419)|STATEMENT_EXECUTE|[536]
+10:29:28.0 (356586199)|STATEMENT_EXECUTE|[536]
+10:29:28.0 (356588076)|STATEMENT_EXECUTE|[538]
+10:29:28.0 (356596438)|HEAP_ALLOCATE|[538]|Bytes:4
+10:29:28.0 (356614737)|STATEMENT_EXECUTE|[539]
+10:29:28.0 (356619007)|HEAP_ALLOCATE|[539]|Bytes:4
+10:29:28.0 (356630180)|STATEMENT_EXECUTE|[540]
+10:29:28.0 (356637620)|HEAP_ALLOCATE|[540]|Bytes:4
+10:29:28.0 (356649641)|STATEMENT_EXECUTE|[541]
+10:29:28.0 (356656538)|HEAP_ALLOCATE|[541]|Bytes:4
+10:29:28.0 (356667721)|STATEMENT_EXECUTE|[542]
+10:29:28.0 (356680136)|HEAP_ALLOCATE|[542]|Bytes:4
+10:29:28.0 (356699009)|STATEMENT_EXECUTE|[543]
+10:29:28.0 (356705996)|HEAP_ALLOCATE|[543]|Bytes:4
+10:29:28.0 (356760244)|HEAP_ALLOCATE|[545]|Bytes:5
+10:29:28.0 (356785778)|STATEMENT_EXECUTE|[545]
+10:29:28.0 (356813595)|STATEMENT_EXECUTE|[546]
+10:29:28.0 (356824579)|HEAP_ALLOCATE|[545]|Bytes:5
+10:29:28.0 (356867719)|STATEMENT_EXECUTE|[552]
+10:29:28.0 (356887554)|STATEMENT_EXECUTE|[560]
+10:29:28.0 (356894231)|SYSTEM_MODE_EXIT|false
+10:29:28.0 (356906309)|METHOD_EXIT|[75]|01p57000001HcKw|ContractUtil.activarDireccionEntrega(List<Contract>, Map<Id,Contract>)
+10:29:28.0 (356917316)|METHOD_EXIT|[82]|01p57000001HcKv|ContractHandler.afterUpdate(List<SObject>, Map<Id,SObject>)
+10:29:28.0 (356922829)|STATEMENT_EXECUTE|[92]
+10:29:28.0 (356929285)|METHOD_ENTRY|[92]|01p57000001HcKv|ContractHandler.andFinally()
+10:29:28.0 (356937040)|STATEMENT_EXECUTE|[91]
+10:29:28.0 (356939004)|STATEMENT_EXECUTE|[92]
+10:29:28.0 (356944053)|METHOD_ENTRY|[92]|01p57000001HcKw|ContractUtil.insertUpdateDeleteRecords()
+10:29:28.0 (356956057)|SYSTEM_MODE_ENTER|false
+10:29:28.0 (356963974)|HEAP_ALLOCATE|[424]|Bytes:5
+10:29:28.0 (356970646)|STATEMENT_EXECUTE|[422]
+10:29:28.0 (356985639)|HEAP_ALLOCATE|[14]|Bytes:5
+10:29:28.0 (356991056)|STATEMENT_EXECUTE|[13]
+10:29:28.0 (356995712)|STATEMENT_EXECUTE|[14]
+10:29:28.0 (356998256)|STATEMENT_EXECUTE|[18]
+10:29:28.0 (357017885)|STATEMENT_EXECUTE|[424]
+10:29:28.0 (357021189)|STATEMENT_EXECUTE|[429]
+10:29:28.0 (357028641)|HEAP_ALLOCATE|[14]|Bytes:5
+10:29:28.0 (357032158)|STATEMENT_EXECUTE|[13]
+10:29:28.0 (357034196)|STATEMENT_EXECUTE|[14]
+10:29:28.0 (357036132)|STATEMENT_EXECUTE|[18]
+10:29:28.0 (357048239)|SYSTEM_MODE_EXIT|false
+10:29:28.0 (357054418)|METHOD_EXIT|[92]|01p57000001HcKw|ContractUtil.insertUpdateDeleteRecords()
+10:29:28.0 (357060515)|METHOD_EXIT|[92]|01p57000001HcKv|ContractHandler.andFinally()
+10:29:28.0 (357068615)|METHOD_EXIT|[33]|01p57000001HcLT|TriggerFactory.execute(ITrigger)
+10:29:28.0 (357077833)|METHOD_EXIT|[4]|01p57000001HcLT|TriggerFactory.createHandler(Schema.SObjectType)
+10:29:28.357 (357089414)|CUMULATIVE_LIMIT_USAGE
+10:29:28.357 (357089414)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 3 out of 100
+  Number of query rows: 47 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+10:29:28.357 (357089414)|CUMULATIVE_LIMIT_USAGE_END
+
+10:29:28.0 (359069000)|CODE_UNIT_FINISHED|ContractTrigger on Contract trigger event AfterUpdate|__sfdc_trigger/ContractTrigger
+10:29:28.0 (361606048)|CODE_UNIT_STARTED|[EXTERNAL]|Workflow:Contract
+10:29:28.0 (405164848)|WF_RULE_EVAL_BEGIN|Workflow
+10:29:28.0 (405271019)|WF_CRITERIA_BEGIN|[Contract: 00046255 8003L0000003ksr]|Registrar Contrato Duplicado|01Q57000000jVVK|ON_CREATE_ONLY|0
+10:29:28.0 (405291899)|WF_RULE_NOT_EVALUATED
+10:29:28.0 (405299320)|WF_CRITERIA_BEGIN|[Contract: 00046255 8003L0000003ksr]|Update_tipo_direcci_n_de_env_o301570000000aaP|01Q57000000jepS|ON_CREATE_ONLY|0
+10:29:28.0 (405306552)|WF_RULE_NOT_EVALUATED
+10:29:28.0 (405311348)|WF_CRITERIA_BEGIN|[Contract: 00046255 8003L0000003ksr]|Bulk_metered3012p000000lD7o|01Q2p000000tHxJ|ON_ALL_CHANGES|0
+10:29:28.0 (405492071)|WF_FORMULA|Formula:ENCODED:[treatNullAsNull]true|Values:
+10:29:28.0 (405507803)|WF_CRITERIA_END|true
+10:29:28.0 (406120725)|WF_CRITERIA_BEGIN|[Contract: 00046255 8003L0000003ksr]|Alerta canvi titular|01Q570000003V9G|ON_ALL_CHANGES|0
+10:29:28.0 (415119704)|WF_RULE_FILTER|[Contract : Estado 2 equals Cambio titular] 
+AND [Contract : Status equals Activado]
+10:29:28.0 (415180792)|WF_RULE_EVAL_VALUE|1
+10:29:28.0 (415214327)|WF_CRITERIA_END|false
+10:29:28.0 (415233700)|WF_SPOOL_ACTION_BEGIN|Workflow
+10:29:28.0 (415277979)|WF_ACTION| Flow Trigger: 1;
+10:29:28.0 (415283759)|WF_RULE_EVAL_END
+10:29:28.885 (885414080)|FLOW_CREATE_INTERVIEW_BEGIN|00D3L0000000enE|3002p000000kKdi|3012p000000lD7o
+10:29:28.885 (886239541)|FLOW_CREATE_INTERVIEW_END|98684d5994a50e40a1b06bed965418262d266bb-6888|Bulk metered
+10:29:28.0 (886344315)|WF_FLOW_ACTION_BEGIN|09L2p000000kP2n
+10:29:28.887 (887065877)|FLOW_START_INTERVIEWS_BEGIN|1
+10:29:28.887 (887159798)|FLOW_START_INTERVIEW_BEGIN|98684d5994a50e40a1b06bed965418262d266bb-6888|Bulk metered
+10:29:28.887 (899698269)|FLOW_START_INTERVIEW_END|98684d5994a50e40a1b06bed965418262d266bb-6888|Bulk metered
+10:29:28.887 (899728551)|FLOW_START_INTERVIEWS_END|1
+10:29:28.887 (899761554)|FLOW_INTERVIEW_FINISHED|98684d5994a50e40a1b06bed965418262d266bb-6888|Bulk metered
+10:29:28.0 (910622485)|WF_FLOW_ACTION_END|09L2p000000kP2n
+10:29:28.0 (910842052)|WF_ACTIONS_END| Flow Trigger: 1;
+10:29:28.0 (910874449)|CODE_UNIT_FINISHED|Workflow:Contract
+10:29:28.0 (911909958)|CODE_UNIT_STARTED|[EXTERNAL]|Flow:Contract
+10:29:28.0 (912122318)|CODE_UNIT_FINISHED|Flow:Contract
+10:29:28.0 (912222679)|CODE_UNIT_STARTED|[EXTERNAL]|Flow:Contract
+10:29:28.0 (912241189)|CODE_UNIT_FINISHED|Flow:Contract
+10:29:28.0 (958132025)|CODE_UNIT_FINISHED|TRIGGERS
+10:29:28.0 (958159790)|EXECUTION_FINISHED
